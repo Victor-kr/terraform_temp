@@ -21,6 +21,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.medium"
 
   tags = {
-    Name = "ExampleAppServerInstance-github2"
+    Name = "ExampleAppServerInstance-github3"
   }
 }
