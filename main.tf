@@ -2,7 +2,7 @@ terraform {
 	cloud {
 		organization = "plateer_idt_aa"
 		workspaces{
-			name = "cns"
+			name = "terraform_temp"
 		}
 	}
   required_providers {
@@ -21,6 +21,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ExampleAppServerInstance-test11"
+    Name = "ExampleAppServerInstance-github1"
   }
 }
